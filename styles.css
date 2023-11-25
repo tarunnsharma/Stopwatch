@@ -1,0 +1,37 @@
+body{
+  background-color: #072E33;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 300;
+}
+
+.container{
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.time{
+  color: white;
+  font-size: 100px;
+  margin-bottom: 12px;
+}
+
+button{
+  font-family: 'Inconsolata', monospace;
+  font-weight: 500;
+  background-color: #0f969c;
+  color: white;
+  border: 1px solid #0c7075;
+  font-size: 30px;
+  margin: 0 8px;
+  padding: 4px 30px;
+  border-radius: 100px;
+  transition: .4s;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 0 13px 2px rgb(150, 233, 233);
+}
