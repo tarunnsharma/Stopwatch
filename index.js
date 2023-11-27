@@ -16,7 +16,7 @@ let Interval;
 
 startEle.onclick = () => {
   clearInterval(Interval);
-  Interval = setInterval(start, 1);
+  Interval = setInterval(start, 1000);
 }
 
 stopEle.onclick = () => {
